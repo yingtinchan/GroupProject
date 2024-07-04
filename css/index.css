@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+  font-family: 'cwTeXYen';
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/ea/cwtexyen/v3/cwTeXYen-zhonly.eot);
+  src: url(//fonts.gstatic.com/ea/cwtexyen/v3/cwTeXYen-zhonly.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/cwtexyen/v3/cwTeXYen-zhonly.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/cwtexyen/v3/cwTeXYen-zhonly.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/cwtexyen/v3/cwTeXYen-zhonly.ttf) format('truetype');
+}
+.container-slider{
+  	display: flex;  
+  	flex-wrap: wrap;	
+}
+
+.slider-introduction{
+	padding: 50px;
+	margin:  100px;
+	width: 300px;
+	border-radius: 25px;
+	border: 1px solid #FF4346;
+ 	background: #FFA20C;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+}
+
+
+.cuisine_introduction{
+	width: 1200px;
+	length: 2000px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: auto;
+	
+}
+
+.cuisine_introduction-img{
+	
+}
+
+.page-information-line{
+	color: #FBC588;
+	width: 1500px;
+	margin-top: 100px;
+	margin-left: 200px;
+	border: 1px solid #FFF;
+}
+
+.under-page-information-line-information{
+		
+}
+
+.adjust-image-size{
+	font-family: 'fantasy', 'cwTeXYen', sans-serif;
+	font-size: 35px;
+}
+
+
